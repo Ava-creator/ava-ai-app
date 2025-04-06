@@ -33,7 +33,7 @@ def main():
     # Button to generate and display the story
     if st.button("Generate Story") and prompt.strip():
         st.markdown("---")
-        st.subheader("Your Story:")
+        st.subheader("Your Answer:")
         
         try:
             # Initialize the Groq client
