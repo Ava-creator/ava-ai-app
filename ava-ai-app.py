@@ -44,7 +44,7 @@ def main():
             
             # Display the complete story
             st.markdown(story)
-            st.success("Story generation complete!")
+            st.success("Answer generation complete!")
             
         except Exception as e:
             st.error(f"An error occurred: {str(e)}")
