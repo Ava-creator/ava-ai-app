@@ -25,7 +25,7 @@ def generate_story(client, prompt):
 
 # Main app logic
 def main():
-    st.title("Ava's Google📔📔📔")
+    st.title("Ava's GPT📔📔📔")
     
     # Input for the story prompt
     prompt = st.text_input("Enter a exam for the story (e.g., 'Once upon a time...')")
